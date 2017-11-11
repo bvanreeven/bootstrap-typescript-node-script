@@ -12,8 +12,6 @@ if [ "$proceed" != "yes" ]; then
   exit 0
 fi
 
-echo "Generating project"
-
 echo "Installing packages..."
 yarn init --yes
 yarn add --dev typescript tslint @types/node
