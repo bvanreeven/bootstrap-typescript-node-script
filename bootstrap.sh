@@ -34,7 +34,8 @@ EOM
 mkdir -p ".vscode"
 cat > ".vscode/settings.json" << EOM
 {
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "tslint.alwaysShowRuleFailuresAsWarnings": true
 }
 EOM
 
